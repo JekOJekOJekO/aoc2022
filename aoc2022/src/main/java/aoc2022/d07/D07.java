@@ -88,6 +88,8 @@ public class D07 extends AocBase {
 		
 		System.out.println("Size: " + currentSize);
 		
+		// korrekt: 9847279
+		
 	}
 	
 	private void addFile(Node current, String line) {

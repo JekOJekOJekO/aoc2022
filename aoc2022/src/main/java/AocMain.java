@@ -17,9 +17,9 @@ public class AocMain {
 		//new D03().doit();
 		//new D04().doit();
 		//new D05_1().doit();
-		new D05_2().doit();
+		//new D05_2().doit();
 		//new D06().doit();
-		//new D07().doit();
+		new D07().doit();
 
 	}
 
