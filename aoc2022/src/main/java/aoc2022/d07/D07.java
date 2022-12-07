@@ -34,10 +34,6 @@ public class D07 extends AocBase {
 		while ((line = reader.readLine()) != null) {
 			System.out.println(++linecounter);
 			
-			if (linecounter == 1019) {
-				System.out.println("break");
-			}
-			
 			if (line.startsWith("$ cd ")) {
 				if (line.endsWith("..")) {
 					// command: $ cd ..
