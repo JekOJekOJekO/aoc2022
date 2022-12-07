@@ -1,4 +1,4 @@
-package aoc2022.D01;
+package aoc2022.d01;
 
 import java.io.IOException;
 import java.util.Collections;
