@@ -1,7 +1,6 @@
 package aoc2022.d07;
 
 import java.io.IOException;
-import java.util.Collections;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -26,14 +25,10 @@ public class D07 extends AocBase {
 		
 		String line = null;
 		
-		int linecounter = 0;
-		
 		// Zeile 1 überspringen
 		reader.readLine();
 		
 		while ((line = reader.readLine()) != null) {
-			System.out.println(++linecounter);
-			
 			if (line.startsWith("$ cd ")) {
 				if (line.endsWith("..")) {
 					// command: $ cd ..

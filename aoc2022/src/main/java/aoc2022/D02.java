@@ -84,8 +84,8 @@ public class D02 {
 				
 			}
 			
-			System.out.println(task1);
-			System.out.println(task2);
+			System.out.println(task1); // 11386
+			System.out.println(task2); // 13600
 			
 		} catch (Exception e) {
 			e.printStackTrace();
