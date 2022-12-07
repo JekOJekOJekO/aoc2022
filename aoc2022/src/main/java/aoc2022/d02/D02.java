@@ -1,14 +1,15 @@
-package aoc2022;
+package aoc2022.d02;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.nio.charset.StandardCharsets;
 
-public class D02 {
-	public static void main(String[] args) {
+import aoc2022.AocBase;
+
+public class D02 extends AocBase {
+	public D02() {
+		super("/D02-Input.txt");
+	}
+
+	public void doit() throws IOException {
 		/*
 		 * A, X for Rock
 		 * B, Y for Paper 
@@ -29,9 +30,6 @@ public class D02 {
 		 */
 		
 		try {
-			InputStream is = D02.class.getResourceAsStream("/D02-Input.txt");
-			InputStreamReader streamReader = new InputStreamReader(is, StandardCharsets.UTF_8);
-			BufferedReader reader = new BufferedReader(streamReader);
 			String line = null;
 
 			int task1 = 0, task2 = 0;
