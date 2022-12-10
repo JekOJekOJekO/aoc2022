@@ -24,15 +24,9 @@ public class D09 extends AocBase {
 
 		String line = null;
 		
-		int count = 0;
-		
 		while ((line = reader.readLine()) != null) {
 			glist.add(new Instruction(line));
-			count++;
 		}
-		
-		// 2000 Zeilen, 2000 Anweisungen
-		//System.out.println(count + " " + glist.size());
 		
 		// Startposition: 0 0 mitzählen
 		visitedIndexList.add(xt + " " + yt);
@@ -74,10 +68,7 @@ public class D09 extends AocBase {
 				break;
 			}
 
-			// T bewegen?
-
 		}
-		
 		
 		// OK 5710
 		System.out.println(visitedIndexList.size());
@@ -101,7 +92,7 @@ public class D09 extends AocBase {
 	
 	// Bewegung links
 	private void moveTailL() {
-		if (xh == xt) { // head und tail nebeneinander
+		if (xh == xt) { // head und tail untereinander
 			if (Math.abs(yt - yh) > 1 ) {
 				yt--;
 			}
