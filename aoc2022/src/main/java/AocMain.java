@@ -9,6 +9,7 @@ import aoc2022.d05.D05_2;
 import aoc2022.d06.D06;
 import aoc2022.d07.D07;
 import aoc2022.d08.D08;
+import aoc2022.d09.D09;
 
 public class AocMain {
 
@@ -21,7 +22,8 @@ public class AocMain {
 		//new D05_2().doit();
 		//new D06().doit();
 		//new D07().doit();
-		new D08().doit();
+		//new D08().doit();
+		new D09().doit();
 
 	}
 
